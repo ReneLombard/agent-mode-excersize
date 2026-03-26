@@ -34,3 +34,4 @@ def api_root(request, format=None):
 		'leaderboard': reverse('leaderboard-list', request=request, format=format),
 		'workouts': reverse('workout-list', request=request, format=format),
 	})
+
